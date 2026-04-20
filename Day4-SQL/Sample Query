@@ -1,0 +1,21 @@
+SELECT firstname,lastname,email,phone,age,gender,job_title,class_degree FROM `jobs_applied` where age < 27 && class_degree = 'Upper Credit' && state = 'Lagos' || class_degree = 'First Class' && age < 27 && state = 'Lagos';
+
+
+insert login set username = 'olu', password = 'tola';
+
+insert into login values(55,'bayo','tola')
+
+insert into login (username,password) values('bayo','tola')
+
+
+
+update `login` set username = 'kayceee' where id = 4;
+update `jobseeker` set email = 'akerelejohn06@gmail.com' where email = 'akerelejohn6@gmail.com';
+
+
+
+delete FROM `login` WHERE username = 'kayceee'
+delete FROM `jobseeker` WHERE email = 'Johndoe@gmail.com';
+
+
+create  registration table
